@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-15417342d295584c702",applicationID:"525287958"};;(()=>{"use strict";var e,t,n={8768:(e,t,n)=>{n.d(t,{T:()=>r,p:()=>i});const r=/(iPad|iPhone|iPod)/g.test(navigator.userAgent),i=r&&Boolean("undefined"==typeof SharedWorker)},2919:(e,t,n)=>{n.d(t,{P_:()=>h,Mt:()=>p,C5:()=>c,DL:()=>w,OP:()=>N,lF:()=>C,Yu:()=>A,Dg:()=>v,CX:()=>u,GE:()=>y,sU:()=>I});var r={};n.r(r),n.d(r,{agent:()=>x,match:()=>k,version:()=>_});var i=n(6797),o=n(4286);const a={beacon:i.ce.beacon,errorBeacon:i.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},s={};function c(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!s[e])throw new Error("Info for ".concat(e," was never set"));return s[e]}function u(e,t){if(!e)throw new Error("All info objects require an agent identifier!");s[e]=new o.I(t,a),(0,i.Qy)(e,s[e],"info")}var d=n(2797),f=n(2374);const l={allow_bfcache:!0,privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0,harvestTimeSeconds:10},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10},metrics:{enabled:!0},page_action:{enabled:!0,harvestTimeSeconds:30},page_view_event:{enabled:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1},session_trace:{enabled:!0,harvestTimeSeconds:10},spa:{enabled:!0,harvestTimeSeconds:10}},g={};function h(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!g[e])throw new Error("Configuration for ".concat(e," was never set"));return g[e]}function v(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");g[e]=new o.I(t,l),(0,i.Qy)(e,g[e],"config")}function p(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var n=h(e);if(n){for(var r=t.split("."),i=0;i<r.length-1;i++)if("object"!=typeof(n=n[r[i]]))return;n=n[r[r.length-1]]}return n}const m={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},b={};function w(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!b[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return b[e]}function y(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");b[e]=new o.I(t,m),(0,i.Qy)(e,b[e],"loader_config")}const A=(0,i.mF)().o;var x=null,_=null;const j=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var D=navigator.userAgent,E=D.match(j);E&&-1===D.indexOf("Chrome")&&-1===D.indexOf("Chromium")&&(x="Safari",_=E[1])}function k(e,t){if(!x)return!1;if(e!==x)return!1;if(!t)return!0;if(!_)return!1;for(var n=_.split("."),r=t.split("."),i=0;i<r.length;i++)if(r[i]!==n[i])return!1;return!0}var S=n(1651);const T={buildEnv:S.Re,bytesSent:{},queryBytesSent:{},customTransaction:void 0,disabled:!1,distMethod:S.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(f._A?.performance?.timeOrigin||f._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+f._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof f._A.XMLHttpRequest?.prototype?.addEventListener,userAgent:r,version:S.q4},P={};function N(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!P[e])throw new Error("Runtime for ".concat(e," was never set"));return P[e]}function I(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");P[e]=new o.I(t,T),(0,i.Qy)(e,P[e],"runtime")}function C(e){return function(e){try{const t=c(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},4286:(e,t,n)=>{n.d(t,{I:()=>o});var r=n(909),i=n(8610);class o{constructor(e,t){Object.assign(this,function(e,t){const n={};try{return e&&"object"==typeof e?t&&"object"==typeof t?(Object.assign(n,t),Object.entries(e).forEach((e=>{let[o,a]=e;if(!Object.keys(t).includes(o))return;const s=(0,r.q)(o);s.length&&a&&"object"==typeof a&&s.forEach((e=>{e in a&&((0,i.Z)('"'.concat(e,'" is a protected attribute and can not be changed in feature ').concat(o,".  It will have no effect.")),delete a[e])})),n[o]=a})),n):(0,i.Z)("Setting a Configurable requires a model to set its initial properties"):(0,i.Z)("New setting a Configurable requires an object as input")}catch(e){(0,i.Z)("An error occured while setting a Configurable",e)}}(e,t))}}},1651:(e,t,n)=>{n.d(t,{Re:()=>i,gF:()=>o,q4:()=>r});const r="1.232.0",i="PROD",o="CDN"},9557:(e,t,n)=>{n.d(t,{w:()=>o});var r=n(8610);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,r.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,n]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=n)}))}catch(e){(0,r.Z)("An error occured while setting SharedContext",e)}}}},4329:(e,t,n)=>{n.d(t,{L:()=>d,R:()=>c});var r=n(3752),i=n(7022),o=n(4045),a=n(2325);const s={};function c(e,t){const n={staged:!1,priority:a.p[t]||0};u(e),s[e].get(t)||s[e].set(t,n)}function u(e){e&&(s[e]||(s[e]=new Map))}function d(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(u(e),!e||!s[e].get(t))return a(t);s[e].get(t).staged=!0;const n=Array.from(s[e]);function a(t){const n=e?r.ee.get(e):r.ee,a=o.X.handlers;if(n.backlog&&a){var s=n.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)f(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,n){n[0].on(e,n[1])}))}))}delete a[t],n.backlog[t]=null,n.emit("drain-"+t,[])}}n.every((e=>{let[t,n]=e;return n.staged}))&&(n.sort(((e,t)=>e[1].priority-t[1].priority)),n.forEach((e=>{let[t]=e;a(t)})))}function f(e,t){var n=e[1];(0,i.D)(t[n],(function(t,n){var r=e[0];if(n[0]===r){var i=n[1],o=e[3],a=e[2];i.apply(o,a)}}))}},3752:(e,t,n)=>{n.d(t,{ee:()=>u});var r=n(6797),i=n(3916),o=n(7022),a=n(2919),s="nr@context";let c=(0,r.fP)();var u;function d(){}function f(){return new d}function l(){u.aborted=!0,u.backlog={}}c.ee?u=c.ee:(u=function e(t,n){var r={},c={},g={},h=!1;try{h=16===n.length&&(0,a.OP)(n).isolatedBacklog}catch(e){}var v={on:b,addEventListener:b,removeEventListener:w,emit:m,get:A,listeners:y,context:p,buffer:x,abort:l,aborted:!1,isBuffering:_,debugId:n,backlog:h?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return v;function p(e){return e&&e instanceof d?e:e?(0,i.X)(e,s,f):f()}function m(e,n,r,i,o){if(!1!==o&&(o=!0),!u.aborted||i){t&&o&&t.emit(e,n,r);for(var a=p(r),s=y(e),d=s.length,f=0;f<d;f++)s[f].apply(a,n);var l=j()[c[e]];return l&&l.push([v,e,n,a]),a}}function b(e,t){r[e]=y(e).concat(t)}function w(e,t){var n=r[e];if(n)for(var i=0;i<n.length;i++)n[i]===t&&n.splice(i,1)}function y(e){return r[e]||[]}function A(t){return g[t]=g[t]||e(v,t)}function x(e,t){var n=j();v.aborted||(0,o.D)(e,(function(e,r){t=t||"feature",c[r]=t,t in n||(n[t]=[])}))}function _(e){return!!j()[c[e]]}function j(){return v.backlog}}(void 0,"globalEE"),c.ee=u)},9252:(e,t,n)=>{n.d(t,{E:()=>r,p:()=>i});var r=n(3752).ee.get("handle");function i(e,t,n,i,o){o?(o.buffer([e],i),o.emit(e,t,n)):(r.buffer([e],i),r.emit(e,t,n))}},4045:(e,t,n)=>{n.d(t,{X:()=>o});var r=n(9252);o.on=a;var i=o.handlers={};function o(e,t,n,o){a(o||r.E,i,e,t,n)}function a(e,t,n,i,o){o||(o="feature"),e||(e=r.E);var a=t[o]=t[o]||{};(a[n]=a[n]||[]).push([e,i])}},8544:(e,t,n)=>{n.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var r=n(2374);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};r._A.addEventListener("test",null,e),r._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(n,r))}function c(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(n,r))}},5526:(e,t,n)=>{n.d(t,{Rl:()=>a,ky:()=>s});var r=n(2374);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=r._A?.crypto||r._A?.msCrypto;let t,n=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?o(t,++n).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=r._A?.crypto||r._A?.msCrypto;let n,i=0;t&&t.getRandomValues&&(n=t.getRandomValues(new Uint8Array(31)));const a=[];for(var s=0;s<e;s++)a.push(o(n,++i).toString(16));return a.join("")}},2797:(e,t,n)=>{n.d(t,{Bq:()=>r,Hb:()=>o,oD:()=>i});const r="NRBA",i=144e5,o=18e5},2053:(e,t,n)=>{function r(){return Math.round(performance.now())}n.d(t,{z:()=>r})},8610:(e,t,n)=>{function r(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}n.d(t,{Z:()=>r})},3916:(e,t,n)=>{n.d(t,{X:()=>i});var r=Object.prototype.hasOwnProperty;function i(e,t,n){if(r.call(e,t))return e[t];var i=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},2374:(e,t,n)=>{n.d(t,{_A:()=>o,il:()=>r,v6:()=>i});const r=Boolean("undefined"!=typeof window&&window.document),i=Boolean("undefined"!=typeof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator);let o=(()=>{if(r)return window;if(i){if("undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope)return globalThis;if(self instanceof WorkerGlobalScope)return self}throw new Error('New Relic browser agent shutting down due to error: Unable to locate global scope. This is possibly due to code redefining browser global variables like "self" and "window".')})()},7022:(e,t,n)=>{n.d(t,{D:()=>r});const r=(e,t)=>Object.entries(e||{}).map((e=>{let[n,r]=e;return t(n,r)}))},2438:(e,t,n)=>{n.d(t,{P:()=>o});var r=n(3752);const i=()=>{const e=new WeakSet;return(t,n)=>{if("object"==typeof n&&null!==n){if(e.has(n))return;e.add(n)}return n}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{r.ee.emit("internal-error",[e])}catch(e){}}}},2650:(e,t,n)=>{n.d(t,{K:()=>a,b:()=>o});var r=n(8544);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,r.bP)("load",e,t)}function a(e){if(i())return e();(0,r.iz)("DOMContentLoaded",e)}},6797:(e,t,n)=>{n.d(t,{EZ:()=>u,Qy:()=>c,ce:()=>o,fP:()=>a,gG:()=>d,mF:()=>s});var r=n(2053),i=n(2374);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,n){let i=a();const o=i.initializedAgents||{},s=o[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,r.z)(),date:new Date}),i.initializedAgents={...o,[e]:{...s,[n]:t}},i}function u(e,t){a()[e]=t}function d(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},6998:(e,t,n)=>{n.d(t,{N:()=>i});var r=n(8544);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;return void(0,r.iz)("visibilitychange",(function(){if(t)return void("hidden"==document.visibilityState&&e());e(document.visibilityState)}),n,i)}},6034:(e,t,n)=>{n.d(t,{gF:()=>o,mY:()=>i,t9:()=>r,vz:()=>s,xS:()=>a});const r=n(2325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},2484:(e,t,n)=>{n.d(t,{Dz:()=>i,OJ:()=>a,qw:()=>o,t9:()=>r});const r=n(2325).D.pageViewEvent,i="firstbyte",o="domcontent",a="windowload"},6382:(e,t,n)=>{n.d(t,{t:()=>r});const r=n(2325).D.pageViewTiming},1509:(e,t,n)=>{n.d(t,{W:()=>s});var r=n(2919),i=n(3752),o=n(2384),a=n(6797);class s{constructor(e,t,n){this.agentIdentifier=e,this.aggregator=t,this.ee=i.ee.get(e,(0,r.OP)(this.agentIdentifier).isolatedBacklog),this.featureName=n,this.blocked=!1,this.checkConfiguration()}checkConfiguration(){if(!(0,r.lF)(this.agentIdentifier)){let e={...(0,a.gG)().info?.jsAttributes};try{e={...e,...(0,r.C5)(this.agentIdentifier)?.jsAttributes}}catch(e){}(0,o.j)(this.agentIdentifier,{...(0,a.gG)(),info:{...(0,a.gG)().info,jsAttributes:e}})}}}},2384:(e,t,n)=>{n.d(t,{j:()=>b});var r=n(2325),i=n(2919),o=n(9252),a=n(3752),s=n(2053),c=n(4329),u=n(2650),d=n(2374),f=n(8610),l=n(6034),g=n(6797);function h(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","inlineHit","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId"].forEach((t=>{e[t]=function(){for(var n=arguments.length,r=new Array(n),i=0;i<n;i++)r[i]=arguments[i];return function(t){for(var n=arguments.length,r=new Array(n>1?n-1:0),i=1;i<n;i++)r[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...r))})),o.length>1?o:o[0]}(t,...r)}}))}var v=n(7022);const p={stn:[r.D.sessionTrace],err:[r.D.jserrors,r.D.metrics],ins:[r.D.pageAction],spa:[r.D.spa]};const m={};function b(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},b=arguments.length>2?arguments[2]:void 0,w=arguments.length>3?arguments[3]:void 0,{init:y,info:A,loader_config:x,runtime:_={loaderType:b},exposed:j=!0}=t;const D=(0,g.gG)();A||(y=D.init,A=D.info,x=D.loader_config),A.jsAttributes??={},d.v6&&(A.jsAttributes.isWorker=!0),(0,i.CX)(e,A),(0,i.Dg)(e,y||{}),(0,i.GE)(e,x||{}),(0,i.sU)(e,_),h();const E=function(e,t){t||(0,c.R)(e,"api");const g={};var h=a.ee.get(e),v=h.get("tracer"),p="api-",m=p+"ixn-";function b(t,n,r,o){const a=(0,i.C5)(e);return null===n?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:n}}),A(p,r,!0,o||null===n?"session":void 0)(t,n)}function w(){}["setErrorHandler","finished","addToTrace","inlineHit","addRelease"].forEach((e=>g[e]=A(p,e,!0,"api"))),g.addPageAction=A(p,"addPageAction",!0,r.D.pageAction),g.setCurrentRouteName=A(p,"routeName",!0,r.D.spa),g.setPageViewName=function(t,n){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(n||"http://custom.transaction")+t,A(p,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",n);(0,f.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string or number type, but a type of <".concat(typeof t,"> was provided."))}else(0,f.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,f.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.interaction=function(){return(new w).get()};var y=w.prototype={createTracer:function(e,t){var n={},i=this,a="function"==typeof t;return(0,o.p)(m+"tracer",[(0,s.z)(),e,n],i,r.D.spa,h),function(){if(v.emit((a?"":"no-")+"fn-start",[(0,s.z)(),i,a],n),a)try{return t.apply(this,arguments)}catch(e){throw v.emit("fn-err",[arguments,this,"string"==typeof e?new Error(e):e],n),e}finally{v.emit("fn-end",[(0,s.z)()],n)}}}};function A(e,t,n,i){return function(){return(0,o.p)(l.xS,["API/"+t+"/called"],void 0,r.D.metrics,h),i&&(0,o.p)(e+t,[(0,s.z)(),...arguments],n?null:this,i,h),n?void 0:this}}function x(){n.e(439).then(n.bind(n,5692)).then((t=>{let{setAPI:n}=t;n(e),(0,c.L)(e,"api")})).catch((()=>(0,f.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{y[e]=A(m,e,void 0,r.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,o.p)(l.xS,["API/noticeError/called"],void 0,r.D.metrics,h),(0,o.p)("err",[e,(0,s.z)(),!1,t],void 0,r.D.jserrors,h)},d.v6?x():(0,u.b)((()=>x()),!0),g}(e,w);return(0,g.Qy)(e,E,"api"),(0,g.Qy)(e,j,"exposed"),(0,g.EZ)("activatedFeatures",m),(0,g.EZ)("setToken",(t=>function(e,t){var n=a.ee.get(t);e&&"object"==typeof e&&((0,v.D)(e,(function(e,t){if(!t)return(p[e]||[]).forEach((t=>{(0,o.p)("block-"+e,[],void 0,t,n)}));m[e]||((0,o.p)("feat-"+e,[],void 0,p[e],n),m[e]=!0)})),(0,c.L)(t,r.D.pageViewEvent))}(t,e))),E}},909:(e,t,n)=>{n.d(t,{Z:()=>i,q:()=>o});var r=n(2325);function i(e){switch(e){case r.D.ajax:return[r.D.jserrors];case r.D.sessionTrace:return[r.D.ajax,r.D.pageViewEvent];case r.D.pageViewTiming:return[r.D.pageViewEvent];default:return[]}}function o(e){return e===r.D.jserrors?[]:["auto"]}},2325:(e,t,n)=>{n.d(t,{D:()=>r,p:()=>i});const r={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionTrace:"session_trace",spa:"spa"},i={[r.pageViewEvent]:1,[r.pageViewTiming]:2,[r.metrics]:3,[r.jserrors]:4,[r.ajax]:5,[r.sessionTrace]:6,[r.pageAction]:7,[r.spa]:8}}},r={};function i(e){var t=r[e];if(void 0!==t)return t.exports;var o=r[e]={exports:{}};return n[e](o,o.exports,i),o.exports}i.m=n,i.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return i.d(t,{a:t}),t},i.d=(e,t)=>{for(var n in t)i.o(t,n)&&!i.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,n)=>(i.f[n](e,t),t)),[])),i.u=e=>(({78:"page_action-aggregate",147:"metrics-aggregate",193:"session_trace-aggregate",242:"session-manager",317:"jserrors-aggregate",348:"page_view_timing-aggregate",439:"async-api",729:"lazy-loader",786:"page_view_event-aggregate",873:"spa-aggregate",898:"ajax-aggregate"}[e]||e)+"."+{78:"64dc4751",147:"c2ad263a",193:"c0ef217a",242:"2a8d47d1",317:"017d6ea4",348:"ddd91465",439:"ad3273bd",729:"c8cd494b",786:"5a238c1f",873:"342172b1",875:"2c240adb",898:"666f66ea"}[e]+"-1.232.0.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA:",i.l=(n,r,o,a)=>{if(e[n])e[n].push(r);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var f=u[d];if(f.getAttribute("src")==n||f.getAttribute("data-webpack")==t+o){s=f;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=n),e[n]=[r];var l=(t,r)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[n];if(delete e[n],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(r))),t)return t(r)},g=setTimeout(l.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=l.bind(null,s.onerror),s.onload=l.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.j=71,i.p="https://js-agent.newrelic.com/",(()=>{var e={71:0,131:0};i.f.j=(t,n)=>{var r=i.o(e,t)?e[t]:void 0;if(0!==r)if(r)n.push(r[2]);else{var o=new Promise(((n,i)=>r=e[t]=[n,i]));n.push(r[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(n=>{if(i.o(e,t)&&(0!==(r=e[t])&&(e[t]=void 0),r)){var o=n&&("load"===n.type?"missing":n.type),a=n&&n.target&&n.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,r[1](s)}}),"chunk-"+t,t)}};var t=(t,n)=>{var r,o,[a,s,c]=n,u=0;if(a.some((t=>0!==e[t]))){for(r in s)i.o(s,r)&&(i.m[r]=s[r]);if(c)c(i)}for(t&&t(n);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},n=window.webpackChunkNRBA=window.webpackChunkNRBA||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})();var o={};(()=>{i.r(o);var e=i(2325),t=i(2919);const n=Object.values(e.D);function r(e){const r={};return n.forEach((n=>{r[n]=function(e,n){return!1!==(0,t.Mt)(n,"".concat(e,".enabled"))}(n,e)})),r}var a=i(2384),s=i(909),c=i(9252),u=i(8768),d=i(4329),f=i(1509),l=i(2650),g=i(2374),h=i(8610);class v extends f.W{constructor(e,t,n){let r=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,n),this.hasAggregator=!1,this.auto=r,this.abortHandler,r&&(0,d.R)(e,n)}importAggregator(){if(this.hasAggregator||!this.auto)return;this.hasAggregator=!0;const e=async()=>{try{const{setupAgentSession:e}=await i.e(242).then(i.bind(i,2011));e(this.agentIdentifier);const{lazyLoader:t}=await i.e(729).then(i.bind(i,8110)),{Aggregate:n}=await t(this.featureName,"aggregate");new n(this.agentIdentifier,this.aggregator)}catch(e){(0,h.Z)("Downloading ".concat(this.featureName," failed..."),e),this.abortHandler?.()}};g.v6?e():(0,l.b)((()=>e()),!0)}}var p=i(2484),m=i(2053);class b extends v{static featureName=p.t9;constructor(n,r){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(n,r,p.t9,i),("undefined"==typeof PerformanceNavigationTiming||u.T)&&"undefined"!=typeof PerformanceTiming){const r=(0,t.OP)(n);r[p.Dz]=Math.max(Date.now()-r.offset,0),(0,l.K)((()=>r[p.qw]=Math.max((0,m.z)()-r[p.Dz],0))),(0,l.b)((()=>{const t=(0,m.z)();r[p.OJ]=Math.max(t-r[p.Dz],0),(0,c.p)("timing",["load",t],void 0,e.D.pageViewTiming,this.ee)}))}this.importAggregator()}}var w=i(9557),y=i(7022);class A extends w.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,n,r,i){var o=this.getBucket(e,t,n,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,y.D)(e,(function(e,n){t[e]=x(n,t[e])})),t}(r,o.metrics),o}merge(e,t,n,r,i){var o=this.getBucket(e,t,r,i);if(o.metrics){var a=o.metrics;a.count+=n.count,(0,y.D)(n,(function(e,t){if("count"!==e){var r=a[e],i=n[e];i&&!i.c?a[e]=x(i.t,r):a[e]=function(e,t){if(!t)return e;t.c||(t=_(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=n}storeMetric(e,t,n,r){var i=this.getBucket(e,t,n);return i.stats=x(r,i.stats),i}getBucket(e,t,n,r){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:n||{}},r&&(i.custom=r)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},n="",r=!1,i=0;i<e.length;i++)t[n=e[i]]=j(this.aggregatedData[n]),t[n].length&&(r=!0),delete this.aggregatedData[n];return r?t:null}}function x(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=_(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function _(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function j(e){return"object"!=typeof e?[]:(0,y.D)(e,D)}function D(e,t){return t}var E=i(6797),k=i(5526),S=i(2438);var T=i(6998),P=i(8544),N=i(6382);class I extends v{static featureName=N.t;constructor(e,n){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,n,N.t,r),g.il&&((0,t.OP)(e).initHidden=Boolean("hidden"===document.visibilityState),(0,T.N)((()=>(0,c.p)("docHidden",[(0,m.z)()],void 0,N.t,this.ee)),!0),(0,P.bP)("pagehide",(()=>(0,c.p)("winPagehide",[(0,m.z)()],void 0,N.t,this.ee))),this.importAggregator())}}const C=Boolean(g._A?.Worker),O=Boolean(g._A?.SharedWorker),R=Boolean(g._A?.navigator?.serviceWorker);let M,B,z;var q=i(6034);class W extends v{static featureName=q.t9;constructor(t,n){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(t,n,q.t9,r),function(e){if(!M){if(C){M=Worker;try{g._A.Worker=n(M,"Dedicated")}catch(e){o(e,"Dedicated")}if(O){B=SharedWorker;try{g._A.SharedWorker=n(B,"Shared")}catch(e){o(e,"Shared")}}else r("Shared");if(R){z=navigator.serviceWorker.register;try{g._A.navigator.serviceWorker.register=(t=z,function(){for(var e=arguments.length,n=new Array(e),r=0;r<e;r++)n[r]=arguments[r];return i("Service",n[1]?.type),t.apply(navigator.serviceWorker,n)})}catch(e){o(e,"Service")}}else r("Service");var t;return}r("All")}function n(e,t){return"undefined"==typeof Proxy?e:new Proxy(e,{construct:(e,n)=>(i(t,n[1]?.type),new e(...n))})}function r(t){g.v6||e("Workers/".concat(t,"/Unavailable"))}function i(t,n){e("Workers/".concat(t,"module"===n?"/Module":"/Classic"))}function o(t,n){e("Workers/".concat(n,"/SM/Unsupported")),(0,h.Z)("NR Agent: Unable to capture ".concat(n," workers."),t)}}((t=>(0,c.p)(q.xS,[t],void 0,e.D.metrics,this.ee))),this.importAggregator()}}new class{constructor(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,k.ky)(16);this.agentIdentifier=t,this.sharedAggregator=new A({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(b),Object.assign(this,(0,a.j)(this.agentIdentifier,e,e.loaderType||"agent")),this.start()}get config(){return{info:(0,t.C5)(this.agentIdentifier),init:(0,t.P_)(this.agentIdentifier),loader_config:(0,t.DL)(this.agentIdentifier),runtime:(0,t.OP)(this.agentIdentifier)}}start(){const t="features";try{const n=r(this.agentIdentifier),i=Array.from(this.desiredFeatures);i.sort(((t,n)=>e.p[t.featureName]-e.p[n.featureName])),i.forEach((t=>{if(n[t.featureName]||t.featureName===e.D.pageViewEvent){const e=(0,s.Z)(t.featureName);e.every((e=>n[e]))||(0,h.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat((0,S.P)(e),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,E.Qy)(this.agentIdentifier,this.features,t)}catch(e){(0,h.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",e);for(const e in this.features)this.features[e].abortHandler?.();const n=(0,E.fP)();return delete n.initializedAgents[this.agentIdentifier]?.api,delete n.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,n.ee?.abort(),delete n.ee?.get(this.agentIdentifier),!1}}}({features:[b,I,W],loaderType:"lite"})})(),window.NRBA=o})();</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="csrf-token" content="Kyy6yCEMPSBOE90UZCFb5gywMZBEKLeOniqj5kcw">
+<title>Cat silhouette vector | Free SVG</title>
+
+<meta name="description" content="Vector graphics of a black cat. Silhouette of a domestic animal.">
+<meta name="author" content="Vedran">
+
+
+<link href="https://fonts.googleapis.com" rel="’preconnect’" crossorigin>
+<link href="https://www.google-analytics.com" rel="’preconnect’" crossorigin>
+<link href="https://pagead2.googlesyndication.com" rel="’preconnect’" crossorigin>
+<link href="https://partner.googleadservices.com" rel="’preconnect’" crossorigin>
+<link href="https://googleads.g.doubleclick.net" rel="’preconnect’" crossorigin>
+<link href="https://www.googletagservices.com" rel="’preconnect’" crossorigin>
+<link media="all" type="text/css" rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css    ">
+
+
+<link media="all" type="text/css" rel="stylesheet" href="https://freesvg.org/css/frontend.css?id=c0d532e6b7bfbb63df9e">
+<link media="all" type="text/css" rel="stylesheet" href="https://freesvg.org/js/select2/select2.min.css">
+<script data-ad-client="ca-pub-4767662663033227" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<script>
+            window.Laravel = {"csrfToken":"Kyy6yCEMPSBOE90UZCFb5gywMZBEKLeOniqj5kcw"}        </script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147217457-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-147217457-1');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EM93X0EMX8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EM93X0EMX8');
+</script>
+</head>
+<body id="app-layout">
+<div id="app">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top black-bg">
+<div class="container">
+<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsMain" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<a class="navbar-brand" href="https://freesvg.org"><img height="40px" src="/img/svg-logo-4.png" /></a>
+<div class="collapse navbar-collapse" id="navbarsMain">
+<div class="navbar-nav mr-auto">
+<a class="nav-link " href="https://freesvg.org">
+<i class="fa fa-home"></i>
+</a>
+<a class="nav-link " href="/pages/about-us">About</a>
+<a class="nav-link" rel="nofollow" href="https://creativecommons.org/publicdomain/zero/1.0/ " target="_blank">License</a>
+<a class="nav-link " href="/contact">Contact</a>
+<a class="nav-link " href="https://forum.freesvg.org" target="_blank">Forum</a>
+</div>
+<div class="navbar-nav">
+<a class="nav-link " href="https://freesvg.org/login">Login</a>
+<a class="nav-link " href="https://freesvg.org/register">Register</a>
+</div>
+</div>
+</div>
+</nav>
+<section class="highlight">
+<div class="cover  bg-overlay-black-50" style="background-image: url(/img/detail-background-svg.jpg);    background-size: cover;">
+<div class="slider-content-middle">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 col-md-12">
+<div class="slider-content text-center">
+<h1 class="text-white mt-20 d-none d-lg-block"> Cat silhouette vector </h1>
+<form action="/search/" method="POST">
+<div class="row justify-content-center form pb-20 mt-50">
+<div class="col-md-5 ">
+<input type="search" class="form-control" name="q" placeholder="Search here">
+<p class="d-block mt-5 popular">Popular SVG vectors:
+<a href="https://freesvg.org/tag/War">War </a>,
+<a href="https://freesvg.org/tag/peace">Peace </a>,
+<a href="https://freesvg.org/tag/cricut-svg">Cricut svg </a>,
+<a href="https://freesvg.org/tag/Ukraine">Ukraine</a>,
+<a href="https://freesvg.org/tag/love">Love </a>,
+<a href="https://freesvg.org/search?query=svg%20cut&q=svg%20cut">Svg cut file </a>
+</p>
+</div>
+<div class="col-lg-2 col-sm-3 col-xs-12 mt-sm-20">
+<input type="submit" class="button btn-block" value="Search">
+</div>
+<input type="hidden" name="_token" value="Kyy6yCEMPSBOE90UZCFb5gywMZBEKLeOniqj5kcw"> </div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="main-container container-fluid py-4">
+<div class="content">
+<div class="main-body-wrapper">
+<div class="main-body">
+<div class="page-title-wrapper">
+<div class="container-fluid mb-40 text-center">
+<div style="color:#999;text-align: center;font-size:12px">
+<span>
+Advertisements
+</span>
+</div>
+
+<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-4767662663033227" data-ad-slot="5687551507"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+<h2>Cat silhouette vector</h2>
+<div class="row-fluid detail-wrapper">
+<div class="main-image">
+<div class="main-image-photo text-center">
+<div itemscope itemtype="http://schema.org/ImageObject">
+<meta itemprop="license" content="https://creativecommons.org/publicdomain/zero/1.0/">
+<meta itemprop="description" content=" Vector graphics of a black cat. Silhouette of a domestic animal.">
+<meta itemprop="acquireLicensePage" content="https://freesvg.org/cat-silhouette-vector">
+<meta itemprop="isAccessibleForFree" content="true">
+<meta itemprop="isFamilyFriendly" content="true">
+<meta itemprop="representativeOfPage" content="true">
+<meta itemprop="thumbnailUrl" content="https://freesvg.org/storage/img/thumb/liftarn_Cat_silhouette.png">
+<meta itemprop="contentUrl" content="https://freesvg.org/img/liftarn_Cat_silhouette.png">
+<meta itemprop="caption" content=" Cat silhouette vector">
+<span itemprop="creator" itemtype="https://schema.org/Organization" itemscope>
+<meta itemprop="name" content="OpenClipart" />
+</span>
+</div>
+<img itemprop="contentUrl" src="/img/liftarn_Cat_silhouette.png" alt="Cat silhouette vector" class="vec_veliki">
+</div>
+<div class="download">
+<a href="/download/5369" class="btn btn-green btn-lg">
+Download SVG </a></div>
+<div class="download">
+<a href="https://freesvg.org/converts/5369/2400" class="btn btn-blue btn-sm pt-2 pb-2">
+Large PNG <small>2400px </small> </a>
+<a href="https://freesvg.org/converts/5369/300" class="btn btn-blue btn-sm pt-2 pb-2">
+Small PNG <small>300px </small> </a>
+</div>
+</div>
+<div class="sponsored-main-detail">
+<div class="istock-main-detail">
+<div class="istock">
+<div class="istock-header"><img src="/img/sponsor_shutterstock.png" alt>
+<p>
+<a style="color:#1a1a1a;text-decoration: underline" href="https://shutterstock.7eer.net/c/2022575/1424089/1305" id="919290">
+Get 15% off at Shutterstock! Use: FSVG15 at checkout! </a>
+<img height="0" width="0" src="https://shutterstock.7eer.net/i/2022575/1424089/1305" style="position:absolute;visibility:hidden;" border="0" />
+<div class="clearfix"></div>
+</div>
+<div class="istock-img">
+<div class="ss-photo">
+<div class="photo-wrap">
+<a target="_blank" href="https://shutterstock.7eer.net/P9oaj?subId1=freesvg&amp;u=https%3A%2F%2Fwww.shutterstock.com%2Fpic.mhtml%3Fid%3D1537761179">
+<div style="max-width:150px; height:150px; overflow:hidden; background-image: url('https://thumb1.shutterstock.com/thumb_large/3549332/1537761179/stock-vector-vector-isolated-cat-silhouette-logo-print-decorative-sticker-1537761179.jpg')"></div></a>
+</div>
+</div>
+<div class="ss-photo">
+<div class="photo-wrap">
+<a target="_blank" href="https://shutterstock.7eer.net/P9oaj?subId1=freesvg&amp;u=https%3A%2F%2Fwww.shutterstock.com%2Fpic.mhtml%3Fid%3D568379944">
+<div style="max-width:150px; height:150px; overflow:hidden; background-image: url('https://thumb7.shutterstock.com/thumb_large/891799/568379944/stock-vector-cats-isolated-on-white-background-568379944.jpg')"></div></a>
+</div>
+</div>
+<div class="ss-photo">
+<div class="photo-wrap">
+<a target="_blank" href="https://shutterstock.7eer.net/P9oaj?subId1=freesvg&amp;u=https%3A%2F%2Fwww.shutterstock.com%2Fpic.mhtml%3Fid%3D2174821183">
+<div style="max-width:147.33333333333px; height:150px; overflow:hidden; background-image: url('https://thumb1.shutterstock.com/thumb_large/166505946/2174821183/stock-vector-cat-silhouette-logo-design-vector-illustration-2174821183.jpg')"></div></a>
+</div>
+</div>
+<div class="ss-photo">
+<div class="photo-wrap">
+<a target="_blank" href="https://shutterstock.7eer.net/P9oaj?subId1=freesvg&amp;u=https%3A%2F%2Fwww.shutterstock.com%2Fpic.mhtml%3Fid%3D119484406">
+<div style="max-width:150px; height:149.66666666667px; overflow:hidden; background-image: url('https://thumb1.shutterstock.com/thumb_large/856843/119484406/stock-vector-cats-collection-vector-silhouette-119484406.jpg')"></div></a>
+</div>
+</div>
+<div class="ss-photo">
+<div class="photo-wrap">
+<a target="_blank" href="https://shutterstock.7eer.net/P9oaj?subId1=freesvg&amp;u=https%3A%2F%2Fwww.shutterstock.com%2Fpic.mhtml%3Fid%3D768003163">
+<div style="max-width:149.66666666667px; height:150px; overflow:hidden; background-image: url('https://thumb1.shutterstock.com/thumb_large/187641306/768003163/stock-vector-black-silhouette-of-a-cat-768003163.jpg')"></div></a>
+</div>
+</div>
+<div class="ss-photo">
+<div class="photo-wrap">
+<a target="_blank" href="https://shutterstock.7eer.net/P9oaj?subId1=freesvg&amp;u=https%3A%2F%2Fwww.shutterstock.com%2Fpic.mhtml%3Fid%3D671156590">
+<div style="max-width:150px; height:150px; overflow:hidden; background-image: url('https://thumb1.shutterstock.com/thumb_large/165666060/671156590/stock-vector-silhouette-of-cat-and-dog-on-white-background-671156590.jpg')"></div></a>
+</div>
+</div>
+<div class="ss-photo">
+<div class="photo-wrap">
+<a target="_blank" href="https://shutterstock.7eer.net/P9oaj?subId1=freesvg&amp;u=https%3A%2F%2Fwww.shutterstock.com%2Fpic.mhtml%3Fid%3D1915423402">
+<div style="max-width:150px; height:112.33333333333px; overflow:hidden; background-image: url('https://thumb9.shutterstock.com/thumb_large/3778628/1915423402/stock-vector-set-of-black-cats-looking-out-the-window-collection-of-cartoon-cats-peeking-out-the-window-funny-1915423402.jpg')"></div></a>
+</div>
+</div>
+<div class="ss-photo">
+<div class="photo-wrap">
+<a target="_blank" href="https://shutterstock.7eer.net/P9oaj?subId1=freesvg&amp;u=https%3A%2F%2Fwww.shutterstock.com%2Fpic.mhtml%3Fid%3D1806293230">
+<div style="max-width:150px; height:51.666666666667px; overflow:hidden; background-image: url('https://thumb1.shutterstock.com/thumb_large/4550647/1806293230/stock-vector-black-cats-silhouettes-set-for-halloween-and-other-cat-shapes-isolated-on-white-background-stock-1806293230.jpg')"></div></a>
+</div>
+</div>
+<div class="ss-photo">
+<div class="photo-wrap">
+<a target="_blank" href="https://shutterstock.7eer.net/P9oaj?subId1=freesvg&amp;u=https%3A%2F%2Fwww.shutterstock.com%2Fpic.mhtml%3Fid%3D266348171">
+<div style="max-width:150px; height:150px; overflow:hidden; background-image: url('https://thumb7.shutterstock.com/thumb_large/202783/266348171/stock-vector-set-of-cats-silhouettes-on-a-white-background-266348171.jpg')"></div></a>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+<div class="photo-details">
+<div class="row mb-5">
+<div class="col-sm-12">
+<h4>Share</h4>
+<div class="footer-social-big mt-20 mb-20 panel" data-id="5369">
+<ul>
+<li class="facebook mr-5"><a href="#" onclick="    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 
+      'facebook-share-dialog', 
+      'width=626,height=436'); 
+    return false;" alt="FB"><i class="fa fa-facebook"> </i><span>Facebook</span></a> </li>
+<li class="pinterest mr-5"><a href="//pinterest.com/pin/create/button/?url=https%3A%2F%2Ffreesvg.org%2Fcat-silhouette-vector&media=https%3A%2F%2Ffreesvg.org%2Fimg%2Fliftarn_Cat_silhouette.png&description=Cat silhouette vector" data-pin-do="buttonPin" data-pin-config="none"> <i class="fa fa-pinterest"> </i><span>Pinterest</span> </a></li>
+<li class="twitter mr-5"><a href="https://twitter.com/share?text=https://freesvg.org/cat-silhouette-vector"> <i class="fa fa-twitter"> </i><span>Twitter</span> </a></li>
+<li class="like mr-5"><a> <i id="like5369" class="fa fa-heart "></i> </a> <span id="like5369-bs3">0</span></li>
+<div class="like-btn">
+</div>
+</ul>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<h4>Description </h4>
+<p>
+Vector graphics of a black cat. Silhouette of a domestic animal.
+</p>
+</div>
+</div>
+<div class="row">
+</div>
+<div class="row">
+<div class="col-sm-12">
+<h4>License</h4>
+<p>
+<a about="/img/liftarn_Cat_silhouette.png" rel="license" href="https://creativecommons.org/licenses/publicdomain/" target="_blank">Public Domain</a></p>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-6">
+<h4>More about SVG</h4>
+<p><i class="fa fa-eye"></i>
+Size 0.00 MB</p>
+<p><i class="fa fa-calendar"></i>
+Date: 08/02/2014 </p>
+<p>
+<i class="fa fa-download"></i> No. of downloads: 3612 </p>
+</div>
+<div class="col-lg-6">
+<h4> SVG published by</h4>
+<p>
+<a href="https://freesvg.org/by/OpenClipart"> OpenClipart </a> </p>
+<p>
+<p> <i class="fa fa-key"></i> SVG ID: 5369 </p>
+</div>
+</div
+             
+						
+						
+							<div class='row single-tags'>
+<div class="col-sm-12">
+<h4>Tags</h4>
+<div class="single-photo-tags">
+<span><a href="https://freesvg.org/tag/animal">animal</a></span>
+<span><a href="https://freesvg.org/tag/animals">animals</a></span>
+<span><a href="https://freesvg.org/tag/cat">cat</a></span>
+<span><a href="https://freesvg.org/tag/cats">cats</a></span>
+<span><a href="https://freesvg.org/tag/clip%20art">clip art</a></span>
+<span><a href="https://freesvg.org/tag/clipart">clipart</a></span>
+<span><a href="https://freesvg.org/tag/public%20domain">public domain</a></span>
+<span><a href="https://freesvg.org/tag/silhouette">silhouette</a></span>
+<span><a href="https://freesvg.org/tag/caracteres"> CaractÃ¨res</a></span>
+<span><a href="https://freesvg.org/tag/bookami-clip-art">bookami clip art</a></span>
+<span><a href="https://freesvg.org/tag/cat-collective"> cat_collective</a></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+<div id="photos" class="related-photos">
+<h3> Related SVG images</h3>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="pig-silhouette-vector">
+<img src="/storage/img/thumb/johnny_automatic_piggie_sihouette.png" alt="Pig silhouette vector" title="Pig silhouette vector">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="sitting-cat-silhouette-vector-clip-art">
+<img src="/storage/img/thumb/cat-silhouette.png" alt="Sitting cat silhouette vector clip art" title="Sitting cat silhouette vector clip art">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="onca-pintada">
+<img src="/storage/img/thumb/onca-pintada.png" alt="onca pintada" title="onca pintada">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="cat-paw-print">
+<img src="/storage/img/thumb/cat-paw-prints-sharp.png" alt="Cat paw print" title="Cat paw print">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="cat-and-mouse-1594380163">
+<img src="/storage/img/thumb/1551993421.png" alt="Cat and Mouse-1594380163" title="Cat and Mouse-1594380163">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="cat-avenue">
+<img src="/storage/img/thumb/CatAvenue.png" alt="Cat Avenue" title="Cat Avenue">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="cow-vector-silhouette">
+<img src="/storage/img/thumb/Boort_Cow_Silhouette_2.png" alt="Cow vector silhouette" title="Cow vector silhouette">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="cow-silhouette-vector">
+<img src="/storage/img/thumb/Boort_Cow_Silhouette.png" alt="Cow Silhouette Vector" title="Cow Silhouette Vector">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="moose-silhouette-vector">
+<img src="/storage/img/thumb/johnny_automatic_moose_sihouette.png" alt="Moose silhouette vector" title="Moose silhouette vector">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="beaver-vector-silhouette">
+<img src="/storage/img/thumb/nicubunu_Beaver_contour.png" alt="Beaver vector silhouette" title="Beaver vector silhouette">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="bat-silhouette">
+<img src="/storage/img/thumb/nicubunu_Bat_contour.png" alt="Bat silhouette" title="Bat silhouette">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="girl-vector-silhouette">
+<img src="/storage/img/thumb/johnny_automatic_girl.png" alt="Girl vector silhouette" title="Girl vector silhouette">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="girl-and-boy-vector-silhouette">
+<img src="/storage/img/thumb/johnny_automatic_girl_and_boy.png" alt="Girl and boy vector silhouette" title="Girl and boy vector silhouette">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="public-domain-tag-in-spanish-vector-image">
+<img src="/storage/img/thumb/public-domain-tag.png" alt="Public domain tag in Spanish vector image" title="Public domain tag in Spanish vector image">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="public-domain-logo-vector-clip-art">
+<img src="/storage/img/thumb/public-domain-logo-streamlined.png" alt="Public domain logo vector clip art" title="Public domain logo vector clip art">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="public-domain-sign-vector-clip-art">
+<img src="/storage/img/thumb/public-domain-logo-slightly-nicer.png" alt="Public domain sign vector clip art" title="Public domain sign vector clip art">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="circle-with-public-domain-texting">
+<img src="/storage/img/thumb/1489954061.png" alt="Circle with &#039;&#039;public domain&#039;&#039; texting" title="Circle with &#039;&#039;public domain&#039;&#039; texting">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="cats-head-silhouette">
+<img src="/storage/img/thumb/cat-silhouette-01.png" alt="Cat&#039;s head silhouette" title="Cat&#039;s head silhouette">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="cute-cat-portrait-vector-image">
+<img src="/storage/img/thumb/black_cat_black_and_white.png" alt="Cute cat portrait vector image" title="Cute cat portrait vector image">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="four-cat-faces-vector-clip-art">
+<img src="/storage/img/thumb/other_cats.png" alt="Four cat faces vector clip art" title="Four cat faces vector clip art">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="cat-5-1592900097">
+<img src="/storage/img/thumb/1553513021.png" alt="Cat (#5)-1592900097" title="Cat (#5)-1592900097">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="cat3-black1">
+<img src="/storage/img/thumb/cat3-black1.png" alt="cat3 black1" title="cat3 black1">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="little-cat-vector">
+<img src="/storage/img/thumb/little-cat-vector.png" alt="Little cat vector" title="Little cat vector">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="cat-1">
+<img src="/storage/img/thumb/cat-1.png" alt="cat 1" title="cat 1">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="1489376908">
+<img src="/storage/img/thumb/1489376908.png" alt="black cat" title="black cat">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="vector-clip-art-of-sophisticated-cat">
+<img src="/storage/img/thumb/sophisticated-cat.png" alt="Vector clip art of sophisticated cat" title="Vector clip art of sophisticated cat">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="1546096624">
+<img src="/storage/img/thumb/1546096624.png" alt="Children with Animals" title="Children with Animals">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="black-cat-vector-image">
+<img src="/storage/img/thumb/kattekrab_Black_Cat_2.png" alt="Black cat vector image" title="Black cat vector image">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="chucky-the-cat-2015051419">
+<img src="/storage/img/thumb/Chucky-the-Cat-2015051419.png" alt="Cat traced vector art" title="Cat traced vector art">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="1534984636">
+<img src="/storage/img/thumb/1534984636.png" alt="Cat with Letter" title="Cat with Letter">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="1545699199">
+<img src="/storage/img/thumb/1545699199.png" alt="Running Cat" title="Running Cat">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="1545700078">
+<img src="/storage/img/thumb/1545700078.png" alt="Cat Chef" title="Cat Chef">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="1545794590">
+<img src="/storage/img/thumb/1545794590.png" alt="Cat with Gift" title="Cat with Gift">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="1550271698">
+<img src="/storage/img/thumb/1550271698.png" alt="Floating Cat" title="Floating Cat">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="raining-cats-and-dogs">
+<img src="/storage/img/thumb/raining_cats_and_dogs.png" alt="Raining Cats and Dogs" title="Raining Cats and Dogs">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="cute-simple-cat-sitting">
+<img src="/storage/img/thumb/cat-6102016.png" alt="Cute simple cat sitting" title="Cute simple cat sitting">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="raining-cats-and-dogs-vector-clip-art">
+<img src="/storage/img/thumb/raining_cats_and_dogs.png" alt="Raining cats and dogs vector clip art" title="Raining cats and dogs vector clip art">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="cute-cat-laying">
+<img src="/storage/img/thumb/cat-6102014.png" alt="Cute cat laying" title="Cute cat laying">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="dailysketch-cats-2015041340">
+<img src="/storage/img/thumb/DailySketch-Cats-2015041340.png" alt="DailySketch Cats 2015041340" title="DailySketch Cats 2015041340">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="cat-vector-icons">
+<img src="/storage/img/thumb/molumen_cat_icons.png" alt="Cat vector icons" title="Cat vector icons">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="elegant-cat-vector-silhouette">
+<img src="/storage/img/thumb/Elegant-Cat-Silhouette.png" alt="Elegant cat vector silhouette" title="Elegant cat vector silhouette">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="1529488852">
+<img src="/storage/img/thumb/1529488852.png" alt="Vintage cat" title="Vintage cat">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="vector-graphics-of-ugly-cat-walking">
+<img src="/storage/img/thumb/johnny-automatic-ugly-cat.png" alt="Vector graphics of ugly cat walking" title="Vector graphics of ugly cat walking">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="johnny-automatic-stylized-kitty-cat">
+<img src="/storage/img/thumb/johnny-automatic-stylized-kitty-cat.png" alt="stylized kitty cat" title="stylized kitty cat">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="1552247636">
+<img src="/storage/img/thumb/1552247636.png" alt="Cat (#5)" title="Cat (#5)">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="1545426372">
+<img src="/storage/img/thumb/1545426372.png" alt="Swan Silhouette 3 Public Domain Icons" title="Swan Silhouette 3 Public Domain Icons">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="1545426417">
+<img src="/storage/img/thumb/1545426417.png" alt="Swan Silhouette 3 Public Domain Icons Prismatic" title="Swan Silhouette 3 Public Domain Icons Prismatic">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="cat-vector">
+<img src="/storage/img/thumb/cat.02.png" alt="Cat vector" title="Cat vector">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="cat-and-mouse">
+<img src="/storage/img/thumb/15721664421551993421.png" alt="Cat and mouse" title="Cat and mouse">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="1543188578">
+<img src="/storage/img/thumb/1543188578.png" alt="Cat And Birds On Branch Silhouette Low Poly" title="Cat And Birds On Branch Silhouette Low Poly">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="bat-vector-silhouette">
+<img src="/storage/img/thumb/liftarn_Bat.png" alt="Bat vector silhouette" title="Bat vector silhouette">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="rooster-silhouette-vector">
+<img src="/storage/img/thumb/johnny_automatic_rooster_silhouette.png" alt="Rooster silhouette vector" title="Rooster silhouette vector">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="bird-silhouette-vector">
+<img src="/storage/img/thumb/ibuteb_Bird2.png" alt="Bird silhouette vector" title="Bird silhouette vector">
+</a>
+</div></div>
+<div class="photo text-center">
+<div class="photo-thumbnail-wrap">
+<a href="orangutan-contour-vector-clip-art">
+<img src="/storage/img/thumb/nicubunu_Orangutan_contour.png" alt="Orangutan contour vector clip art" title="Orangutan contour vector clip art">
+</a>
+</div></div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div>
+<div class="sidebar-wrapper">
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4767662663033227" data-ad-slot="2867614028" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<div class="sidebar-element tags page-tags">
+<h3>Related tags</h3>
+<div class="tags-wrapper">
+<span><a href="/tag/2016">2016</a></span>
+<span><a href="/tag/9va-remix">9va-remix</a></span>
+<span><a href="/tag/animal">animal</a></span>
+<span><a href="/tag/animals">animals</a></span>
+<span><a href="/tag/animation">animation</a></span>
+<span><a href="/tag/antique">antique</a></span>
+<span><a href="/tag/aquatic">aquatic</a></span>
+<span><a href="/tag/art">art</a></span>
+<span><a href="/tag/banner">banner</a></span>
+<span><a href="/tag/bat">bat</a></span>
+<span><a href="/tag/bear">bear</a></span>
+<span><a href="/tag/beaver">beaver</a></span>
+<span><a href="/tag/bird">bird</a></span>
+<span><a href="/tag/birds">birds</a></span>
+<span><a href="/tag/black">black</a></span>
+<span><a href="/tag/black-white">black-white</a></span>
+<span><a href="/tag/boy">boy</a></span>
+<span><a href="/tag/boys">boys</a></span>
+<span><a href="/tag/branch">branch</a></span>
+<span><a href="/tag/bricks">bricks</a></span>
+<span><a href="/tag/button">button</a></span>
+<span><a href="/tag/carnivore">carnivore</a></span>
+<span><a href="/tag/cartoon">cartoon</a></span>
+<span><a href="/tag/cat">cat</a></span>
+<span><a href="/tag/cats">cats</a></span>
+<span><a href="/tag/cats and dogs">cats and dogs</a></span>
+<span><a href="/tag/CC0">CC0</a></span>
+<span><a href="/tag/chef">chef</a></span>
+<span><a href="/tag/Chicken">Chicken</a></span>
+<span><a href="/tag/child">child</a></span>
+<span><a href="/tag/clip art">clip art</a></span>
+<span><a href="/tag/clip-art">clip-art</a></span>
+<span><a href="/tag/clipart">clipart</a></span>
+<span><a href="/tag/cloud">cloud</a></span>
+<span><a href="/tag/cloudburst">cloudburst</a></span>
+<span><a href="/tag/clouds">clouds</a></span>
+<span><a href="/tag/color">color</a></span>
+<span><a href="/tag/contour">contour</a></span>
+<span><a href="/tag/cook">cook</a></span>
+<span><a href="/tag/Cow">Cow</a></span>
+<span><a href="/tag/cute">cute</a></span>
+<span><a href="/tag/dailysketch">dailysketch</a></span>
+<span><a href="/tag/decals">decals</a></span>
+<span><a href="/tag/Dog">Dog</a></span>
+<span><a href="/tag/domain">domain</a></span>
+<span><a href="/tag/drawing">drawing</a></span>
+<span><a href="/tag/ear">ear</a></span>
+<span><a href="/tag/externalsource">externalsource</a></span>
+<span><a href="/tag/eye">eye</a></span>
+<span><a href="/tag/eyes">eyes</a></span>
+<span><a href="/tag/face">face</a></span>
+<span><a href="/tag/family">family</a></span>
+<span><a href="/tag/farm">farm</a></span>
+<span><a href="/tag/favorites">favorites</a></span>
+<span><a href="/tag/feline">feline</a></span>
+<span><a href="/tag/figure">figure</a></span>
+<span><a href="/tag/finger">finger</a></span>
+<span><a href="/tag/flight">flight</a></span>
+<span><a href="/tag/float">float</a></span>
+<span><a href="/tag/fly">fly</a></span>
+<span><a href="/tag/font">font</a></span>
+<span><a href="/tag/forest">forest</a></span>
+<span><a href="/tag/Formen">Formen</a></span>
+<span><a href="/tag/frame">frame</a></span>
+<span><a href="/tag/free">free</a></span>
+<span><a href="/tag/fun">fun</a></span>
+<span><a href="/tag/game">game</a></span>
+<span><a href="/tag/general">general</a></span>
+<span><a href="/tag/gift">gift</a></span>
+<span><a href="/tag/girl">girl</a></span>
+<span><a href="/tag/glasses">glasses</a></span>
+<span><a href="/tag/graphics">graphics</a></span>
+<span><a href="/tag/halloween">halloween</a></span>
+<span><a href="/tag/hand">hand</a></span>
+<span><a href="/tag/handdrawn">handdrawn</a></span>
+<span><a href="/tag/happy">happy</a></span>
+<span><a href="/tag/head">head</a></span>
+<span><a href="/tag/heart">heart</a></span>
+<span><a href="/tag/icon">icon</a></span>
+<span><a href="/tag/ideas">ideas</a></span>
+<span><a href="/tag/illustration">illustration</a></span>
+<span><a href="/tag/jaguar">jaguar</a></span>
+<span><a href="/tag/jungle">jungle</a></span>
+<span><a href="/tag/K">K</a></span>
+<span><a href="/tag/kid">kid</a></span>
+<span><a href="/tag/kitten">kitten</a></span>
+<span><a href="/tag/kitty">kitty</a></span>
+<span><a href="/tag/knowledge">knowledge</a></span>
+<span><a href="/tag/Lazur">Lazur</a></span>
+<span><a href="/tag/leopard">leopard</a></span>
+<span><a href="/tag/letter">letter</a></span>
+<span><a href="/tag/Libre">Libre</a></span>
+<span><a href="/tag/License">License</a></span>
+<span><a href="/tag/life">life</a></span>
+<span><a href="/tag/line">line</a></span>
+<span><a href="/tag/line-art">line-art</a></span>
+<span><a href="/tag/lineart">lineart</a></span>
+<span><a href="/tag/lion">lion</a></span>
+<span><a href="/tag/loc">loc</a></span>
+<span><a href="/tag/logger">logger</a></span>
+</div>
+</div>
+<h3 class="content-heading">More from <a href="https://freesvg.org/by/OpenClipart"> OpenClipart </a> </h3>
+<div class="clearfix">
+<div class="more-from-site">
+<a href="alien-tree"><img src="/storage/img/thumb/zeimusu-Iram-alien-tree.png" width="80px" heigth="80px" alt="Alien tree"></a>
+<a href="fractal-kaleidoscope-art"><img src="/storage/img/thumb/born-to-be-civilized-no-bg.png" width="80px" heigth="80px" alt="Fractal kaleidoscope art"></a>
+<a href="eating-chinese-style-steamed-bun-2"><img src="/storage/img/thumb/eatingnikuman2-0052298ktsbxl.png" width="80px" heigth="80px" alt="Eating Chinese-style Steamed Bun (#2)"></a>
+<a href="zodiac-experience"><img src="/storage/img/thumb/zodiac326679.png" width="80px" heigth="80px" alt="Zodiac Experience"></a>
+<a href="washing-machine-character"><img src="/storage/img/thumb/lavadora-furiosa-2021.png" width="80px" heigth="80px" alt="Washing machine character"></a>
+<a href="fractal-art-with-lines"><img src="/storage/img/thumb/phrant.png" width="80px" heigth="80px" alt="Fractal art with lines"></a>
+<a href="antique-hinges"><img src="/storage/img/thumb/old-hinges.png" width="80px" heigth="80px" alt="Antique Hinges"></a>
+<a href="web-page-layout-icon"><img src="/storage/img/thumb/layout-icon-color.png" width="80px" heigth="80px" alt="Web page layout icon"></a>
+<a href="sacred-chao-symbol"><img src="/storage/img/thumb/sacredchao.png" width="80px" heigth="80px" alt="Sacred Chao symbol"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<footer class="footer page-section-pt black-bg">
+<div class="container">
+<div class="row">
+<div class="col-lg-3  col-sm-6 xs-mb-30">
+<div class="footer-hedding">
+<h6 class="text-white mb-30 mt-10 text-uppercase">Share</h6>
+<div class="footer-social-big">
+<ul>
+<li class="facebook"><a href="#" onclick="    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 
+      'facebook-share-dialog', 
+      'width=626,height=436'); 
+    return false;" alt="FB"> <i class="fa fa-facebook"> </i><span>Facebook</span></a> </li>
+<li class="pinterest"><a href="//pinterest.com/pin/create/button/?url=https%3A%2F%2Ffreesvg.org%2Fcat-silhouette-vector&media=https%3A%2F%2Ffreesvg.org%2Fimg%2Fmain_bg.jpg&description=Rebuilding open clip art database and community" data-pin-do="buttonPin" data-pin-config="none"> <i class="fa fa-pinterest"> </i><span>Pinterest</span> </a></li>
+<li class="twitter"><a href="https://twitter.com/share?text=https://freesvg.org/cat-silhouette-vector"> <i class="fa fa-twitter"> </i><span>Twitter</span> </a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-sm-6 sm-mb-30">
+<div class="footer-useful-link footer-hedding">
+<h6 class="text-white mb-30 mt-10 text-uppercase">Useful links</h6>
+<ul>
+<li><a rel="nofollow" href="http://inkscape.org/">Inkscape</a> </li>
+<li><a rel="nofollow" href="https://en.wikipedia.org/wiki/Scalable_Vector_Graphics">What is SVG</a> </li>
+<li><a rel="nofollow" href="https://svgedit.netlify.app/editor/index.html">SVG Edit</a> </li>
+<li><a rel="nofollow" href="http://www.drawsvg.org/drawsvg.html"> Draw SVG</a> </li>
+<li><a rel="nofollow" href="http://www.w3.org/Graphics/SVG/">SVG Logo</a> </li>
+</ul>
+</div>
+</div>
+<div class="col-lg-3 col-sm-6 sm-mb-30 xs-mb-30">
+<h6 class="text-white mb-30 mt-10 text-uppercase">About us</h6>
+<p>FreeSVG.org offers free vector images in SVG format with Creative Commons 0 license (public domain).
+You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.
+<br/>It is absolutely not required, but if you like this website, any mention of or link back is highly appreciated.</p>
+</div>
+<div class="col-lg-2 col-sm-6 sm-mb-30">
+<div class="footer-useful-link footer-hedding">
+<h6 class="text-white mb-30 mt-10 text-uppercase">Site links</h6>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/pages/about-us">About</a></li>
+<li><a href="/contact">Contact</a></li>
+<li><a rel="nofollow" href="https://creativecommons.org/publicdomain/zero/1.0/ " target="_blank">Public domain license</a></li>
+<li><a rel="nofollow" href="https://forum.freesvg.org " target="_blank">Forum
+</div>
+</div>
+<div class="col-lg-2 col-sm-6 sm-mb-30">
+<a href="https://shutterstock.7eer.net/c/2022575/1294752/1305" target="_blank" id="1178280"><img src="/img/ss300.png" border="0" alt width="300" height="225" /></a>
+<img height="0" width="0" src="https://shutterstock.7eer.net/i/2022575/1294752/1305" style="position:absolute;visibility:hidden;" border="0" />
+</div>
+<div class="footer-widget mt-60 ">
+<div class="row">
+<div class="col-lg-6 col-md-6">
+<p class="mt-15">
+<a href="#"> Free SVG </a> 2019-2020 </p>
+</div>
+<div class="col-lg-6 col-md-6 ">
+<div class="footer-social mt-10">
+<ul class="text-left text-md-right">
+<li class="list-inline-item"><a href="/pages/api-and-usage">API</a> </li>
+<li class="list-inline-item"><a href="/pages/terms-and-conditions">Terms and conditions </a> </li>
+<li class="list-inline-item"><a href="/pages/privacy-policy">Privacy Policy </a> </li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer> 
+<script defer src="//stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+<script src="https://freesvg.org/js/frontend.js?id=fd71e92afda009fad5db"></script>
+<script src="https://freesvg.org/js/jquerysession.min.js"></script>
+<script src="https://freesvg.org/js/frontend/frontend.min.js"></script>
+<script src="https://freesvg.org/js/select2/select2.min.js"></script>
+<script src="https://freesvg.org/js/share.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {     
+
+
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+
+      
+        $('.like').click(function(){    
+            var id = $(this).parents(".panel").data('id');
+            var c = $('#like'+id+'-bs3').html();
+          console.log(c);
+            var cObjId =id;
+            var cObj = $(this);
+             	poruka = $('.like-btn');
+          
+            $.ajax({
+               type:'POST',
+               url:'/like',
+               data:{id:id},
+               success:function(data){
+               
+                 if(data.success<1){
+                
+                    $('#like'+cObjId+'-bs3').html(parseInt(c)-1);
+                    $(cObj).removeClass("like-post");
+                  }else if(data.success>0){
+           
+                    $('#like'+cObjId+'-bs3').html(parseInt(c)+1);
+                    $(cObj).addClass("like-post");
+                  }
+                 else{
+             poruka.addClass("alert alert-error");
+             poruka.html(data.error).slideDown(1000);
+                  
+                  }
+               },
+               
+            });
+
+
+        });      
+      
+            $('.claim').click(function(){    
+            var id = $(this).attr('id');
+            var user=$(this).attr('user');
+            nota = $('#nota');
+             console.log(user);
+            var cObjId =id;
+            var cObj = $(this);
+                    
+            $.ajax({
+               type:'POST',
+               url:'/claim',
+               data:{id:id,
+                     user:user},
+               success:function(data){
+                            
+                 nota.addClass("alert alert-success");
+                 nota.html(data.success).slideDown(1000);
+            
+               },
+               
+            });
+
+
+        });     
+
+                                   
+    }); 
+</script>
+<script>
+$(document).ready(function()
+{
+
+ 
+
+
+    $("#ajax-contact-form").submit(function(e){
+		
+     event.preventDefault();
+            	note = $('#note');
+            var formData = {
+                email     : $('input[name=email]').val(),
+                 _token    : $('input[name=_token]').val()
+                    };
+
+            $.ajax({
+                type     : "POST",
+                url:   '/newsletter',
+                data     : formData,
+                cache    : false,
+
+                success  : function(data) {
+                 note.addClass("alert alert-success");
+                 note.html(data.success).slideDown(1000);
+                }
+            });
+
+
+            return false;
+
+        });
+  
+ 
+
+
+});
+
+</script>
+<div class="js-cookie-consent cookie-consent">
+<span class="cookie-consent__message">
+Your experience on this site will be improved by allowing cookies.
+</span>
+<button class="js-cookie-consent-agree cookie-consent__agree btn btn-green btn-lg">
+Allow cookies
+</button>
+</div>
+<script>
+
+        window.laravelCookieConsent = (function () {
+
+            const COOKIE_VALUE = 1;
+            const COOKIE_DOMAIN = 'freesvg.org';
+
+            function consentWithCookies() {
+                setCookie('laravel_cookie_consent', COOKIE_VALUE, 7300);
+                hideCookieDialog();
+            }
+
+            function cookieExists(name) {
+                return (document.cookie.split('; ').indexOf(name + '=' + COOKIE_VALUE) !== -1);
+            }
+
+            function hideCookieDialog() {
+                const dialogs = document.getElementsByClassName('js-cookie-consent');
+
+                for (let i = 0; i < dialogs.length; ++i) {
+                    dialogs[i].style.display = 'none';
+                }
+            }
+
+            function setCookie(name, value, expirationInDays) {
+                const date = new Date();
+                date.setTime(date.getTime() + (expirationInDays * 24 * 60 * 60 * 1000));
+                document.cookie = name + '=' + value
+                    + ';expires=' + date.toUTCString()
+                    + ';domain=' + COOKIE_DOMAIN
+                    + ';path=/';
+            }
+
+            if (cookieExists('laravel_cookie_consent')) {
+                hideCookieDialog();
+            }
+
+            const buttons = document.getElementsByClassName('js-cookie-consent-agree');
+
+            for (let i = 0; i < buttons.length; ++i) {
+                buttons[i].addEventListener('click', consentWithCookies);
+            }
+
+            return {
+                consentWithCookies: consentWithCookies,
+                hideCookieDialog: hideCookieDialog
+            };
+        })();
+    </script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-15417342d295584c702","applicationID":"525287958","transactionName":"ZgMAZUFTWUJTUhcIXl9JI1JHW1hfHVcRDl9FAwxVHUFBVhxCCw5G","queueTime":0,"applicationTime":97,"atts":"SkQDEwlJSkw=","errorBeacon":"bam.nr-data.net","agent":""}</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7d070eb43921b8be","version":"2023.4.0","r":1,"token":"3c34c81fdd70440c825cf9135891f70a","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
